@@ -1,0 +1,37 @@
+{
+    "widgets": [
+      {
+        "id": 1,
+        "name": "Blobex Corporation",
+        "type": "form",
+        "items": [
+          {
+            "type": "section",
+            "header": "Opportunity details",
+            "columns": 2,
+            "items": [
+              {
+                "type": "input",
+                "label": "Opportunity name",
+                "value": "Acme - 1200 Widgets (Sample)",
+                "required": true
+              },
+              {
+                "type": "currency",
+                "label": "Ammount + currency",
+                "value": 146,
+                "symbol": "€"
+              },
+              {
+                "type": "currency",
+                "label": "Another input",
+                "value": 140000,
+                "symbol": "€",
+                "precision": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

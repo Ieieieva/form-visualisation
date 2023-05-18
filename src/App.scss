@@ -1,0 +1,41 @@
+.home__image--container {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__image {
+  height: 100vh;
+  cursor: pointer;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background-color: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-color: #ebeeec;
+  transform: translate(-50%, -40%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 50rem;
+  max-width: calc(100vw - 2rem);
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+}
